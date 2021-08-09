@@ -8,4 +8,4 @@
 - The reducer takes in (the current state, action)
 - Switch statement takes in the action type in our case ADD_ONE.
 - Returns a copy of our state with the total equaling the total + 1
-- TotalDisplay shows the total plus 1.
+- On Update TotalDisplay shows the total plus 1.

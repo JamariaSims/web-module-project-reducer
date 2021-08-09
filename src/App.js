@@ -8,7 +8,8 @@ import * as OPERATION from "./actions/index.js";
 function App() {
 	const [state, dispatch] = useReducer(reducer, initialState);
 	const handleAdding = () => {
-		dispatch({ type: OPERATION.ADD_ONE });
+		const { addOne, ADD_ONE } = OPERATION;
+		dispatch(addOne());
 	};
 	return (
 		<div className="App">
